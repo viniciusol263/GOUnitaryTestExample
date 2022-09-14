@@ -1,0 +1,8 @@
+mode: set
+soma_test/soma.go:23.66,24.31 1 1
+soma_test/soma.go:27.2,29.22 3 1
+soma_test/soma.go:24.31,26.3 1 1
+soma_test/soma.go:32.53,33.33 1 1
+soma_test/soma.go:39.2,39.35 1 1
+soma_test/soma.go:33.33,34.21 1 1
+soma_test/soma.go:34.21,37.4 2 1
