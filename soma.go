@@ -36,5 +36,5 @@ func (c *Contains) searchId(id int) (*Value, error) {
 			return &value, nil
 		}
 	}
-	return &Value{}, ErrValueNotFound
+	return nil, ErrValueNotFound
 }

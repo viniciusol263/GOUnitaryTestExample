@@ -39,7 +39,7 @@ func TestContainer(t *testing.T) {
 		{id_t: 2, response: &Value{id: 2, value: 3}},
 		{id_t: 3, response: &Value{id: 3, value: 1034}},
 		{id_t: 4, response: &Value{id: 4, value: 598}},
-		{id_t: 5, response: &Value{}},
+		{id_t: 5, response: nil},
 	}
 	{
 		for _, testValue := range testDataSearchId {
