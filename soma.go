@@ -29,12 +29,12 @@ func (c *Contains) insertInt(id int, value int) ([]Value, error) {
 	return c.values, nil
 }
 
-func (c *Contains) searchId(id int) (*Value, error) {
+func (c *Contains) searchId(id int) *Value {
 	for _, value := range c.values {
 		if value.id == id {
 			log.Printf("Found Value %+v\n", value)
-			return &value, nil
+			return &value
 		}
 	}
-	return nil, ErrValueNotFound
+	return nil
 }

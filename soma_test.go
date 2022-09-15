@@ -43,7 +43,7 @@ func TestContainer(t *testing.T) {
 	}
 	{
 		for _, testValue := range testDataSearchId {
-			tmpTest, _ := containsTest.searchId(testValue.id_t)
+			tmpTest := containsTest.searchId(testValue.id_t)
 			if !reflect.DeepEqual(testValue.response, tmpTest) {
 				t.Fatalf("Received return %v - Expected return %v\n", tmpTest, testValue.response)
 			}
